@@ -1,3 +1,13 @@
+
+To create new project
+npx create-react-app my-app --template typescript
+
+graphql usage
+npm install --save graphql graphql.macro
+
+axios usage
+npm install axios
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
