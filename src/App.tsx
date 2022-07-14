@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { loader } from 'graphql.macro';
-import PersonList from './person';
+
 
 function App() {
 
@@ -11,7 +11,7 @@ console.log(query, 'query');
 
   return (
     <div className="App">
-      <PersonList/>
+  
     </div>
   );
 }
