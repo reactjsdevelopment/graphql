@@ -1,17 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import { loader } from 'graphql.macro';
+import gql from 'graphql-tag';
+
 
 
 function App() {
 
 const query = loader('./foo.graphql');
-console.log(query, 'query');
 
+const queryTag = gql`
+  {
+    user(id: 5) {
+      firstName
+      lastName
+    }
+  }`
+
+  // console.log(query.definitions[0]['selectionSet'],queryTag, 'query');
+  for (const definition of query.definitions) {
+    console.log(definition)
+  }
   return (
-    <div className="App">
-  
+    <div>
+  <p>hello</p>
     </div>
   );
 }
