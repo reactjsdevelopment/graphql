@@ -18,7 +18,7 @@ const queryTag = gql`
     }
   }`
 
-  // console.log(query.definitions[0]['selectionSet'],queryTag, 'query');
+  console.log(queryTag, 'query');
   for (const definition of query.definitions) {
     console.log(definition)
   }
