@@ -20,13 +20,13 @@ I'm Sam, and I'm passionate about product engineering and web development. I cre
 
 
 ### About the app
-graphql demo. 
+
 
 ### useful commands to run project
 - npm run start
 
 ### Packages used
-- npm install --save graphql graphql.macro
+- npm install --save graphql graphql.macro graphql-tag
 
 ## Subscribe and Stay Updated!
 
